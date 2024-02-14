@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b357aa1b-22bb-44d9-aa95-cad4c1beb333" name="변경" comment="[패스트캠퍼스] 객체지향 개념 다지기 까지 커밋">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapps/WEB-INF/classes/org/example/WebApplicationServer.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +50,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -65,38 +63,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.WebApplicationServer.executor": "Run",
-    "Gradle.PasswordValidatorTest.executor": "Run",
-    "Gradle.PasswordValidatorTest.validatePasswordTest2.executor": "Run",
-    "Gradle.PasswordValidatorTest.validatePasswordTest3.executor": "Run",
-    "Gradle.PasswordValidatorTest.validatorPasswordTest.executor": "Run",
-    "Gradle.UserTest.executor": "Run",
-    "Gradle.UserTest.passwordTest.executor": "Run",
-    "Gradle.UserTest.passwordTest2.executor": "Run",
-    "Gradle.mvc-practice [:WebApplicationServer.main()].executor": "Run",
-    "Gradle.mvc-practice.executor": "Run",
-    "JUnit.All in mvc-practice.executor": "Profiler#1",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "temurin-21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/knsol/IdeaProjects/mvc-practice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.WebApplicationServer.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PasswordValidatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PasswordValidatorTest.validatePasswordTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PasswordValidatorTest.validatePasswordTest3.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PasswordValidatorTest.validatorPasswordTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserTest.passwordTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserTest.passwordTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.mvc-practice [:WebApplicationServer.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.mvc-practice.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in mvc-practice.executor&quot;: &quot;Profiler#1&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/knsol/IdeaProjects/mvc-practice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example" />
@@ -113,7 +111,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WebApplicationServer">
+  <component name="RunManager" selected="Gradle.PasswordValidatorTest">
     <configuration name="WebApplicationServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.WebApplicationServer" />
       <module name="mvc-practice.main" />
@@ -225,9 +223,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PasswordValidatorTest" />
         <item itemvalue="Application.WebApplicationServer" />
         <item itemvalue="Gradle.UserTest" />
-        <item itemvalue="Gradle.PasswordValidatorTest" />
         <item itemvalue="Gradle.PasswordValidatorTest.validatePasswordTest3" />
         <item itemvalue="Gradle.PasswordValidatorTest.validatePasswordTest2" />
       </list>
@@ -253,7 +251,7 @@
       <workItem from="1707484349484" duration="2127000" />
       <workItem from="1707527747585" duration="614000" />
       <workItem from="1707635657052" duration="469000" />
-      <workItem from="1707908341260" duration="7484000" />
+      <workItem from="1707908341260" duration="7770000" />
     </task>
     <task id="LOCAL-00001" summary="[패스트캠퍼스] 객체지향 개념 다지기 까지 커밋">
       <option name="closed" value="true" />
@@ -263,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707915251541</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[패스트캠퍼스] 객체지향 개념 다지기 까지 커밋">
+      <option name="closed" value="true" />
+      <created>1707917561691</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707917561691</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b357aa1b-22bb-44d9-aa95-cad4c1beb333" name="변경" comment="[패스트캠퍼스] gitignore 수정">
-      <change afterPath="$PROJECT_DIR$/oop-practice-Grade-Calculator/src/main/java/org/example/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-practice-Grade-Calculator/src/main/java/org/example/Courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-practice-Grade-Calculator/src/main/java/org/example/GradeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-practice-Grade-Calculator/src/test/java/org/example/CourseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-practice-Grade-Calculator/src/test/java/org/example/GradeCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b357aa1b-22bb-44d9-aa95-cad4c1beb333" name="변경" comment="[패스트캠퍼스] 학점 계산기 반영">
+      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/main/java/org/example/Cook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/main/java/org/example/Cooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/main/java/org/example/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/main/java/org/example/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/main/java/org/example/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/main/java/org/example/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/test/java/org/example/CookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/test/java/org/example/CookingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/test/java/org/example/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/test/java/org/example/MenuItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/test/java/org/example/MenuTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-02-14__10_35___.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-02-14_오후_10_35_[변경]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
@@ -88,17 +95,25 @@
     "Gradle.mvc-practice.executor": "Run",
     "JUnit.All in mvc-practice.executor": "Profiler#1",
     "JUnit.CalculatorTest.executor": "Run",
+    "JUnit.CookTest.executor": "Run",
+    "JUnit.CookingTest.executor": "Run",
     "JUnit.CourceTest.executor": "Run",
     "JUnit.CourseTest.executor": "Run",
+    "JUnit.CustomerTest.executor": "Run",
     "JUnit.GradeCalculatorTest.calculatorGradeTest.executor": "Run",
     "JUnit.GradeCalculatorTest.executor": "Run",
+    "JUnit.MenuItemTest.createTest.executor": "Run",
+    "JUnit.MenuItemTest.executor": "Run",
+    "JUnit.MenuTest.chooseTest.executor": "Run",
+    "JUnit.MenuTest.createTest2.executor": "Run",
+    "JUnit.MenuTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "jbr-17",
+    "jdk.selected.JAVA_MODULE": "temurin-21",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/knsol/IdeaProjects/mvc-practice",
     "node.js.detected.package.eslint": "true",
@@ -129,22 +144,9 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GradeCalculatorTest.calculatorGradeTest">
-    <configuration name="WebApplicationServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.WebApplicationServer" />
-      <module name="mvc-practice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvc-practice.oop-practice-Grade-Calculator.test" />
+  <component name="RunManager" selected="JUnit.CustomerTest">
+    <configuration name="CookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvc-practice.oop-practice-Ordering-Food.test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -152,14 +154,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CourceTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CookingTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvc-practice.oop-practice-Grade-Calculator.test" />
+    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvc-practice.oop-practice-Ordering-Food.test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -167,14 +169,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CourseTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CustomerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvc-practice.oop-practice-Grade-Calculator.test" />
+    <configuration name="MenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvc-practice.oop-practice-Ordering-Food.test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -182,14 +184,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.GradeCalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MenuTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeCalculatorTest.calculatorGradeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvc-practice.oop-practice-Grade-Calculator.test" />
+    <configuration name="MenuTest.chooseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvc-practice.oop-practice-Ordering-Food.test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -197,8 +199,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.GradeCalculatorTest" />
-      <option name="METHOD_NAME" value="calculatorGradeTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MenuTest" />
+      <option name="METHOD_NAME" value="chooseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuTest.createTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvc-practice.oop-practice-Ordering-Food.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MenuTest" />
+      <option name="METHOD_NAME" value="createTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -206,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GradeCalculatorTest.calculatorGradeTest" />
-        <item itemvalue="JUnit.CourseTest" />
-        <item itemvalue="JUnit.GradeCalculatorTest" />
-        <item itemvalue="JUnit.CourceTest" />
-        <item itemvalue="Application.WebApplicationServer" />
+        <item itemvalue="JUnit.CustomerTest" />
+        <item itemvalue="JUnit.MenuTest.createTest2" />
+        <item itemvalue="JUnit.MenuTest" />
+        <item itemvalue="JUnit.MenuTest.chooseTest" />
+        <item itemvalue="JUnit.CookingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -239,6 +257,10 @@
       <workItem from="1707908341260" duration="7770000" />
       <workItem from="1707968764895" duration="407000" />
       <workItem from="1707969345396" duration="6200000" />
+      <workItem from="1708826339789" duration="835000" />
+      <workItem from="1708948486799" duration="1150000" />
+      <workItem from="1709106468917" duration="597000" />
+      <workItem from="1709120306807" duration="800000" />
     </task>
     <task id="LOCAL-00001" summary="[패스트캠퍼스] 객체지향 개념 다지기 까지 커밋">
       <option name="closed" value="true" />

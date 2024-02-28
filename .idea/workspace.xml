@@ -4,23 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b357aa1b-22bb-44d9-aa95-cad4c1beb333" name="변경" comment="[패스트캠퍼스] 학점 계산기 반영">
-      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/main/java/org/example/Cook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/main/java/org/example/Cooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/main/java/org/example/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/main/java/org/example/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/main/java/org/example/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/main/java/org/example/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/test/java/org/example/CookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/test/java/org/example/CookingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/test/java/org/example/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/test/java/org/example/MenuItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-practice-Ordering-Food/src/test/java/org/example/MenuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-02-14__10_35___.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-02-14_오후_10_35_[변경]/shelved.patch" beforeDir="false" />
+    <list default="true" id="b357aa1b-22bb-44d9-aa95-cad4c1beb333" name="변경" comment="[패스트캠퍼스] 음식점 주문 반영">
+      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/CustomWebApplicationServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/HttpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/HttpResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/QueryString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/QueryStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/RequestLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/calculator/domain/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/calculator/domain/EnumArithmeticOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/calculator/domain/PositiveNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/calculator/tobe/AdditionOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/calculator/tobe/ArithmeticOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/calculator/tobe/DivisionOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/calculator/tobe/MultiplicationOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/calculator/tobe/SubtractionOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/test/java/org/example/QueryStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/test/java/org/example/QueryStringsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/src/test/java/org/example/RequestLineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/was-practice/test.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/main/java/org/example/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/main/java/org/example/calculate/AdditionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/main/java/org/example/AdditionOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/main/java/org/example/calculate/DivisionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/main/java/org/example/DivisionOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/main/java/org/example/calculate/MultiplicationOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/main/java/org/example/MultiplicationOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/main/java/org/example/calculate/NewArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/main/java/org/example/NewArithmeticOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/main/java/org/example/calculate/PositiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/main/java/org/example/PositiveNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/main/java/org/example/calculate/SubtractionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/main/java/org/example/SubtractionOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/test/java/org/example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/test/java/org/example/PositiveNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/test/java/org/example/PositiveNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +72,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTTP Request" />
         <option value="Class" />
       </list>
     </option>
@@ -67,6 +81,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -83,7 +100,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "Application.WebApplicationServer.executor": "Run",
+    "Application.org.example.Main.executor": "Run",
     "Gradle.PasswordValidatorTest.executor": "Run",
     "Gradle.PasswordValidatorTest.validatePasswordTest2.executor": "Run",
     "Gradle.PasswordValidatorTest.validatePasswordTest3.executor": "Run",
@@ -93,6 +112,7 @@
     "Gradle.UserTest.passwordTest2.executor": "Run",
     "Gradle.mvc-practice [:WebApplicationServer.main()].executor": "Run",
     "Gradle.mvc-practice.executor": "Run",
+    "HTTP Request.test | #1.executor": "Run",
     "JUnit.All in mvc-practice.executor": "Profiler#1",
     "JUnit.CalculatorTest.executor": "Run",
     "JUnit.CookTest.executor": "Run",
@@ -107,6 +127,10 @@
     "JUnit.MenuTest.chooseTest.executor": "Run",
     "JUnit.MenuTest.createTest2.executor": "Run",
     "JUnit.MenuTest.executor": "Run",
+    "JUnit.QueryStringTest.createTest.executor": "Run",
+    "JUnit.QueryStringsTest.createTest.executor": "Run",
+    "JUnit.RequestLineTest.create.executor": "Run",
+    "JUnit.RequestLineTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -115,7 +139,8 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "temurin-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/knsol/IdeaProjects/mvc-practice",
+    "last_directory_selection": "C:/Users/knsol/IdeaProjects/Fast_Campus_Practice/was-practice/src/main/java/org/example",
+    "last_opened_file_path": "C:/Users/knsol/IdeaProjects/Fast_Campus_Practice/was-practice/src/main/java/org/example",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -131,8 +156,10 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example" />
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\was-practice\src\main\java\org\example" />
       <recent name="C:\Users\knsol\IdeaProjects\mvc-practice" />
       <recent name="C:\Users\knsol\IdeaProjects\mvc-practice\web-practice" />
       <recent name="C:\Users\knsol\IdeaProjects\mvc-practice\web-practice\src" />
@@ -141,42 +168,29 @@
       <recent name="org.example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.tobe" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerTest">
-    <configuration name="CookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvc-practice.oop-practice-Ordering-Food.test" />
+  <component name="RunManager" selected="HTTP Request.test | #1">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="mvc-practice.was-practice.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CookingTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvc-practice.oop-practice-Ordering-Food.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CustomerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/was-practice/test.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="MenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvc-practice.oop-practice-Ordering-Food.test" />
+    <configuration name="QueryStringTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvc-practice.was-practice.test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -184,30 +198,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MenuTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MenuTest.chooseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvc-practice.oop-practice-Ordering-Food.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MenuTest" />
-      <option name="METHOD_NAME" value="chooseTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.QueryStringTest" />
+      <option name="METHOD_NAME" value="createTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuTest.createTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvc-practice.oop-practice-Ordering-Food.test" />
+    <configuration name="QueryStringsTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvc-practice.was-practice.test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -215,8 +214,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MenuTest" />
-      <option name="METHOD_NAME" value="createTest2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.QueryStringsTest" />
+      <option name="METHOD_NAME" value="createTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RequestLineTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvc-practice.was-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RequestLineTest" />
+      <option name="METHOD_NAME" value="create" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -224,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CustomerTest" />
-        <item itemvalue="JUnit.MenuTest.createTest2" />
-        <item itemvalue="JUnit.MenuTest" />
-        <item itemvalue="JUnit.MenuTest.chooseTest" />
-        <item itemvalue="JUnit.CookingTest" />
+        <item itemvalue="HTTP Request.test | #1" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.QueryStringsTest.createTest" />
+        <item itemvalue="JUnit.QueryStringTest.createTest" />
+        <item itemvalue="JUnit.RequestLineTest.create" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +275,7 @@
       <workItem from="1708826339789" duration="835000" />
       <workItem from="1708948486799" duration="1150000" />
       <workItem from="1709106468917" duration="597000" />
-      <workItem from="1709120306807" duration="800000" />
+      <workItem from="1709120306807" duration="6907000" />
     </task>
     <task id="LOCAL-00001" summary="[패스트캠퍼스] 객체지향 개념 다지기 까지 커밋">
       <option name="closed" value="true" />
@@ -286,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708524364241</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[패스트캠퍼스] 음식점 주문 반영">
+      <option name="closed" value="true" />
+      <created>1709121367602</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709121367602</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +330,8 @@
     <MESSAGE value="[패스트캠퍼스] 객체지향 개념 다지기 까지 커밋" />
     <MESSAGE value=".gitignore" />
     <MESSAGE value="[패스트캠퍼스] gitignore 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="[패스트캠퍼스] gitignore 수정" />
+    <MESSAGE value="[패스트캠퍼스] 음식점 주문 반영" />
+    <option name="LAST_COMMIT_MESSAGE" value="[패스트캠퍼스] 음식점 주문 반영" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

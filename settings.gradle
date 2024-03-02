@@ -4,4 +4,5 @@ include 'oop-practice-Elementary-Arithmetic'
 include 'oop-practice-Grade-Calculator'
 include 'oop-practice-Ordering-Food'
 include 'was-practice'
+include 'servlet'
 

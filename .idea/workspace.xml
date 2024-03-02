@@ -4,12 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b357aa1b-22bb-44d9-aa95-cad4c1beb333" name="변경" comment="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-1 까지">
-      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/ClientRequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/counter/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/counter/RaceConditionDemo.java" afterDir="false" />
+    <list default="true" id="b357aa1b-22bb-44d9-aa95-cad4c1beb333" name="변경" comment="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-3 까지, CGI 프로그램과 서블릿">
+      <change afterPath="$PROJECT_DIR$/servlet/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/CalculatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/CalculatorServlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/WebApplicationServerLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/calculator/domain/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/calculator/domain/EnumArithmeticOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/calculator/domain/PositiveNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/calculator/tobe/AdditionOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/calculator/tobe/ArithmeticOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/calculator/tobe/DivisionOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/calculator/tobe/MultiplicationOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/calculator/tobe/SubtractionOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/test.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/CustomWebApplicationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/was-practice/src/main/java/org/example/CustomWebApplicationServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/was-practice/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +63,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="HTTP Request" />
         <option value="Class" />
+        <option value="HTML File" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -79,7 +95,9 @@
     "Application.Main.executor": "Run",
     "Application.RaceConditionDemo.executor": "Run",
     "Application.WebApplicationServer.executor": "Run",
+    "Application.WebApplicationServerLauncher.executor": "Run",
     "Application.org.example.Main.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
     "Gradle.PasswordValidatorTest.executor": "Run",
     "Gradle.PasswordValidatorTest.validatePasswordTest2.executor": "Run",
     "Gradle.PasswordValidatorTest.validatePasswordTest3.executor": "Run",
@@ -89,6 +107,7 @@
     "Gradle.UserTest.passwordTest2.executor": "Run",
     "Gradle.mvc-practice [:WebApplicationServer.main()].executor": "Run",
     "Gradle.mvc-practice.executor": "Run",
+    "HTTP Request.test | #1 (1).executor": "Run",
     "HTTP Request.test | #1.executor": "Run",
     "JUnit.All in mvc-practice.executor": "Profiler#1",
     "JUnit.CalculatorTest.executor": "Run",
@@ -114,10 +133,10 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "temurin-21",
+    "jdk.selected.JAVA_MODULE": "jbr-17",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/knsol/IdeaProjects/Fast_Campus_Practice/was-practice/src/main/java/org/example",
-    "last_opened_file_path": "C:/Users/knsol/IdeaProjects/Fast_Campus_Practice/was-practice",
+    "last_opened_file_path": "C:/Users/knsol/IdeaProjects/Fast_Campus_Practice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -136,21 +155,28 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\servlet" />
+      <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\servlet\src\main\java\org\example" />
       <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\was-practice" />
       <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\was-practice\src\main\java\org\example" />
       <recent name="C:\Users\knsol\IdeaProjects\mvc-practice" />
-      <recent name="C:\Users\knsol\IdeaProjects\mvc-practice\web-practice" />
-      <recent name="C:\Users\knsol\IdeaProjects\mvc-practice\web-practice\src" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="org.example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.example.tobe" />
       <recent name="org.example" />
+      <recent name="org.example.tobe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RaceConditionDemo">
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.test | #1 (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="mvc-practice.was-practice.main" />
@@ -177,48 +203,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/was-practice/test.http" requestIdentifier="#1" runType="Run single request">
+    <configuration name="WebApplicationServerLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.WebApplicationServerLauncher" />
+      <module name="mvc-practice.servlet.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test | #1 (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/servlet/test.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
-    </configuration>
-    <configuration name="QueryStringTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvc-practice.was-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.QueryStringTest" />
-      <option name="METHOD_NAME" value="createTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryStringsTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvc-practice.was-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.QueryStringsTest" />
-      <option name="METHOD_NAME" value="createTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RaceConditionDemo" />
-        <item itemvalue="HTTP Request.test | #1" />
+        <item itemvalue="HTTP Request.test | #1 (1)" />
+        <item itemvalue="Application.WebApplicationServerLauncher" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.QueryStringsTest.createTest" />
-        <item itemvalue="JUnit.QueryStringTest.createTest" />
+        <item itemvalue="Application.RaceConditionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +257,8 @@
       <workItem from="1708948486799" duration="1150000" />
       <workItem from="1709106468917" duration="597000" />
       <workItem from="1709120306807" duration="7680000" />
-      <workItem from="1709354528199" duration="3903000" />
+      <workItem from="1709354528199" duration="6596000" />
+      <workItem from="1709386091398" duration="1031000" />
     </task>
     <task id="LOCAL-00001" summary="[패스트캠퍼스] 객체지향 개념 다지기 까지 커밋">
       <option name="closed" value="true" />
@@ -293,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709131165067</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-3 까지, CGI 프로그램과 서블릿">
+      <option name="closed" value="true" />
+      <created>1709383373617</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709383373617</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +331,8 @@
     <MESSAGE value="[패스트캠퍼스] gitignore 수정" />
     <MESSAGE value="[패스트캠퍼스] 음식점 주문 반영" />
     <MESSAGE value="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-1 까지" />
-    <option name="LAST_COMMIT_MESSAGE" value="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-1 까지" />
+    <MESSAGE value="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-3 까지, CGI 프로그램과 서블릿" />
+    <option name="LAST_COMMIT_MESSAGE" value="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-3 까지, CGI 프로그램과 서블릿" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

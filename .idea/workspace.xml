@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b357aa1b-22bb-44d9-aa95-cad4c1beb333" name="변경" comment="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-3 까지, CGI 프로그램과 서블릿">
-      <change afterPath="$PROJECT_DIR$/servlet/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/CalculatorServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/CalculatorServlet2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/WebApplicationServerLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/calculator/domain/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/calculator/domain/EnumArithmeticOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/calculator/domain/PositiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/calculator/tobe/AdditionOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/calculator/tobe/ArithmeticOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/calculator/tobe/DivisionOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/calculator/tobe/MultiplicationOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/src/main/java/org/example/calculator/tobe/SubtractionOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/test.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/was-practice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/was-practice/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="b357aa1b-22bb-44d9-aa95-cad4c1beb333" name="변경" comment="[패스트캠퍼스] 웹 애플리케이션의 이해까지" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +49,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/servlet" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="KubernetesApiProvider">{
@@ -258,7 +237,7 @@
       <workItem from="1709106468917" duration="597000" />
       <workItem from="1709120306807" duration="7680000" />
       <workItem from="1709354528199" duration="6596000" />
-      <workItem from="1709386091398" duration="1031000" />
+      <workItem from="1709386091398" duration="1708000" />
     </task>
     <task id="LOCAL-00001" summary="[패스트캠퍼스] 객체지향 개념 다지기 까지 커밋">
       <option name="closed" value="true" />
@@ -308,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709383373617</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[패스트캠퍼스] 웹 애플리케이션의 이해까지">
+      <option name="closed" value="true" />
+      <created>1709387160606</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709387160606</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +319,8 @@
     <MESSAGE value="[패스트캠퍼스] 음식점 주문 반영" />
     <MESSAGE value="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-1 까지" />
     <MESSAGE value="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-3 까지, CGI 프로그램과 서블릿" />
-    <option name="LAST_COMMIT_MESSAGE" value="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-3 까지, CGI 프로그램과 서블릿" />
+    <MESSAGE value="[패스트캠퍼스] 웹 애플리케이션의 이해까지" />
+    <option name="LAST_COMMIT_MESSAGE" value="[패스트캠퍼스] 웹 애플리케이션의 이해까지" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

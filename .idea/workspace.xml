@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b357aa1b-22bb-44d9-aa95-cad4c1beb333" name="변경" comment="[패스트캠퍼스] 웹 애플리케이션의 이해까지" />
+    <list default="true" id="b357aa1b-22bb-44d9-aa95-cad4c1beb333" name="변경" comment="[패스트캠퍼스] JDBC 강의 수강">
+      <change afterPath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/ConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/JdbcTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/PreparedStatementSetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/RowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-practice/src/test/java/org/example/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-practice/src/test/resources/db_schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +61,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/servlet" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="KubernetesApiProvider">{
@@ -69,76 +81,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RaceConditionDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WebApplicationServer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WebApplicationServerLauncher.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.Main.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Gradle.PasswordValidatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.PasswordValidatorTest.validatePasswordTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.PasswordValidatorTest.validatePasswordTest3.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.PasswordValidatorTest.validatorPasswordTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.UserTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.UserTest.passwordTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.UserTest.passwordTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mvc-practice [:WebApplicationServer.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mvc-practice.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.test | #1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.test | #1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in mvc-practice.executor&quot;: &quot;Profiler#1&quot;,
-    &quot;JUnit.CalculatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CookTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CookingTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CourceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CourseTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CustomerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GradeCalculatorTest.calculatorGradeTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GradeCalculatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MenuItemTest.createTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MenuItemTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MenuTest.chooseTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MenuTest.createTest2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MenuTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QueryStringTest.createTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QueryStringsTest.createTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RequestLineTest.create.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RequestLineTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;jbr-17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/knsol/IdeaProjects/Fast_Campus_Practice/was-practice/src/main/java/org/example&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/knsol/IdeaProjects/Fast_Campus_Practice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.RaceConditionDemo.executor": "Run",
+    "Application.WebApplicationServer.executor": "Run",
+    "Application.WebApplicationServerLauncher.executor": "Run",
+    "Application.org.example.Main.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.PasswordValidatorTest.executor": "Run",
+    "Gradle.PasswordValidatorTest.validatePasswordTest2.executor": "Run",
+    "Gradle.PasswordValidatorTest.validatePasswordTest3.executor": "Run",
+    "Gradle.PasswordValidatorTest.validatorPasswordTest.executor": "Run",
+    "Gradle.UserTest.executor": "Run",
+    "Gradle.UserTest.passwordTest.executor": "Run",
+    "Gradle.UserTest.passwordTest2.executor": "Run",
+    "Gradle.mvc-practice [:WebApplicationServer.main()].executor": "Run",
+    "Gradle.mvc-practice.executor": "Run",
+    "HTTP Request.test | #1 (1).executor": "Run",
+    "HTTP Request.test | #1.executor": "Run",
+    "JUnit.All in mvc-practice.executor": "Profiler#1",
+    "JUnit.CalculatorTest.executor": "Run",
+    "JUnit.CookTest.executor": "Run",
+    "JUnit.CookingTest.executor": "Run",
+    "JUnit.CourceTest.executor": "Run",
+    "JUnit.CourseTest.executor": "Run",
+    "JUnit.CustomerTest.executor": "Run",
+    "JUnit.GradeCalculatorTest.calculatorGradeTest.executor": "Run",
+    "JUnit.GradeCalculatorTest.executor": "Run",
+    "JUnit.MenuItemTest.createTest.executor": "Run",
+    "JUnit.MenuItemTest.executor": "Run",
+    "JUnit.MenuTest.chooseTest.executor": "Run",
+    "JUnit.MenuTest.createTest2.executor": "Run",
+    "JUnit.MenuTest.executor": "Run",
+    "JUnit.QueryStringTest.createTest.executor": "Run",
+    "JUnit.QueryStringsTest.createTest.executor": "Run",
+    "JUnit.RequestLineTest.create.executor": "Run",
+    "JUnit.RequestLineTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "jbr-17",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/knsol/IdeaProjects/Fast_Campus_Practice/was-practice/src/main/java/org/example",
+    "last_opened_file_path": "C:/Users/knsol/IdeaProjects/Fast_Campus_Practice/jdbc-practice/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\jdbc-practice\src" />
       <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\servlet" />
       <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\servlet\src\main\java\org\example" />
       <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\was-practice" />
       <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\was-practice\src\main\java\org\example" />
-      <recent name="C:\Users\knsol\IdeaProjects\mvc-practice" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\jdbc-practice\src\test\resources" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="org.example" />
@@ -155,7 +170,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.test | #1 (1)">
+  <component name="RunManager" selected="JUnit.UserDaoTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="mvc-practice.was-practice.main" />
@@ -198,8 +213,24 @@
     <configuration name="test | #1 (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/servlet/test.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
+    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvc-practice.jdbc-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.UserDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest" />
         <item itemvalue="HTTP Request.test | #1 (1)" />
         <item itemvalue="Application.WebApplicationServerLauncher" />
         <item itemvalue="Application.Main" />
@@ -238,6 +269,7 @@
       <workItem from="1709120306807" duration="7680000" />
       <workItem from="1709354528199" duration="6596000" />
       <workItem from="1709386091398" duration="1708000" />
+      <workItem from="1709461546086" duration="283000" />
     </task>
     <task id="LOCAL-00001" summary="[패스트캠퍼스] 객체지향 개념 다지기 까지 커밋">
       <option name="closed" value="true" />
@@ -295,7 +327,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709387160606</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[패스트캠퍼스] JDBC 강의 수강">
+      <option name="closed" value="true" />
+      <created>1709461565833</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709461565833</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[패스트캠퍼스] JDBC 강의 수강">
+      <option name="closed" value="true" />
+      <created>1709461726601</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709461726601</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +368,8 @@
     <MESSAGE value="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-1 까지" />
     <MESSAGE value="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-3 까지, CGI 프로그램과 서블릿" />
     <MESSAGE value="[패스트캠퍼스] 웹 애플리케이션의 이해까지" />
-    <option name="LAST_COMMIT_MESSAGE" value="[패스트캠퍼스] 웹 애플리케이션의 이해까지" />
+    <MESSAGE value="[패스트캠퍼스] JDBC 강의 수강" />
+    <option name="LAST_COMMIT_MESSAGE" value="[패스트캠퍼스] JDBC 강의 수강" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,7 +1,4 @@
 package org.example;
-
-import org.example.calculator.*;
-
 import java.util.List;
 
 public class Calculator {

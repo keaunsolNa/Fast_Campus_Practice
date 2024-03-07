@@ -6,4 +6,5 @@ include 'oop-practice-Ordering-Food'
 include 'was-practice'
 include 'servlet'
 include 'jdbc-practice'
+include 'mvc-practice2'
 

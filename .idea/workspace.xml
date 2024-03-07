@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b357aa1b-22bb-44d9-aa95-cad4c1beb333" name="변경" comment="[패스트캠퍼스] JDBC 강의 수강">
-      <change afterPath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/ConnectionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/JdbcTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/PreparedStatementSetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/RowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-practice/src/test/java/org/example/UserDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-practice/src/test/resources/db_schema.sql" afterDir="false" />
+    <list default="true" id="b357aa1b-22bb-44d9-aa95-cad4c1beb333" name="변경" comment="[패스트캠퍼스] 객체지향 개념 다지기 사칙 연산 계산기 커밋">
+      <change afterPath="$PROJECT_DIR$/mvc-practice2/src/main/java/org/example/annotation/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice2/src/main/java/org/example/annotation/RequestMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice2/src/main/java/org/example/annotation/RequestMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice2/src/main/java/org/example/annotation/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice2/src/main/java/org/example/controller/HealthCheckController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice2/src/main/java/org/example/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice2/src/main/java/org/example/controller/HomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice2/src/main/java/org/example/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice2/src/test/java/org/example/ReflectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop-practice-Elementary-Arithmetic/src/main/java/org/example/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,9 +56,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
-        <option value="HTML File" />
-        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -64,9 +65,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -83,12 +81,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.RaceConditionDemo.executor": "Run",
     "Application.WebApplicationServer.executor": "Run",
-    "Application.WebApplicationServerLauncher.executor": "Run",
-    "Application.org.example.Main.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
     "Gradle.PasswordValidatorTest.executor": "Run",
     "Gradle.PasswordValidatorTest.validatePasswordTest2.executor": "Run",
     "Gradle.PasswordValidatorTest.validatePasswordTest3.executor": "Run",
@@ -98,26 +91,7 @@
     "Gradle.UserTest.passwordTest2.executor": "Run",
     "Gradle.mvc-practice [:WebApplicationServer.main()].executor": "Run",
     "Gradle.mvc-practice.executor": "Run",
-    "HTTP Request.test | #1 (1).executor": "Run",
-    "HTTP Request.test | #1.executor": "Run",
     "JUnit.All in mvc-practice.executor": "Profiler#1",
-    "JUnit.CalculatorTest.executor": "Run",
-    "JUnit.CookTest.executor": "Run",
-    "JUnit.CookingTest.executor": "Run",
-    "JUnit.CourceTest.executor": "Run",
-    "JUnit.CourseTest.executor": "Run",
-    "JUnit.CustomerTest.executor": "Run",
-    "JUnit.GradeCalculatorTest.calculatorGradeTest.executor": "Run",
-    "JUnit.GradeCalculatorTest.executor": "Run",
-    "JUnit.MenuItemTest.createTest.executor": "Run",
-    "JUnit.MenuItemTest.executor": "Run",
-    "JUnit.MenuTest.chooseTest.executor": "Run",
-    "JUnit.MenuTest.createTest2.executor": "Run",
-    "JUnit.MenuTest.executor": "Run",
-    "JUnit.QueryStringTest.createTest.executor": "Run",
-    "JUnit.QueryStringsTest.createTest.executor": "Run",
-    "JUnit.RequestLineTest.create.executor": "Run",
-    "JUnit.RequestLineTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -126,8 +100,8 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "jbr-17",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/knsol/IdeaProjects/Fast_Campus_Practice/was-practice/src/main/java/org/example",
-    "last_opened_file_path": "C:/Users/knsol/IdeaProjects/Fast_Campus_Practice/jdbc-practice/src",
+    "last_directory_selection": "C:/Users/knsol/IdeaProjects/Fast_Campus_Practice/mvc-practice2/src/main/java/org/example/controller",
+    "last_opened_file_path": "C:/Users/knsol/IdeaProjects/mvc-practice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -142,79 +116,28 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.annotation" />
+      <recent name="org.example.controller" />
       <recent name="org.example" />
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\jdbc-practice\src" />
-      <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\servlet" />
-      <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\servlet\src\main\java\org\example" />
-      <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\was-practice" />
-      <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\was-practice\src\main\java\org\example" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\knsol\IdeaProjects\Fast_Campus_Practice\jdbc-practice\src\test\resources" />
+      <recent name="C:\Users\knsol\IdeaProjects\mvc-practice" />
+      <recent name="C:\Users\knsol\IdeaProjects\mvc-practice\web-practice" />
+      <recent name="C:\Users\knsol\IdeaProjects\mvc-practice\web-practice\src" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="org.example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example" />
-      <recent name="org.example.tobe" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="excludedTypes">
-      <set>
-        <option value="HttpClient.HttpRequestRunConfigurationType" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.UserDaoTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="mvc-practice.was-practice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RaceConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.counter.RaceConditionDemo" />
-      <module name="mvc-practice.was-practice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.counter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebApplicationServerLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.WebApplicationServerLauncher" />
-      <module name="mvc-practice.servlet.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test | #1 (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/servlet/test.http" requestIdentifier="#1" runType="Run single request">
+  <component name="RunManager" selected="JUnit.ReflectionTest.load">
+    <configuration name="test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/was-practice/test.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvc-practice.jdbc-practice.test" />
+    <configuration name="ReflectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvc-practice.mvc-practice2.test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -222,27 +145,73 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UserDaoTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ReflectionTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionTest.controllerScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvc-practice.mvc-practice2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ReflectionTest" />
+      <option name="METHOD_NAME" value="controllerScan" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionTest.load" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvc-practice.mvc-practice2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ReflectionTest" />
+      <option name="METHOD_NAME" value="load" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionTest.showClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvc-practice.mvc-practice2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ReflectionTest" />
+      <option name="METHOD_NAME" value="showClass" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserDaoTest" />
-        <item itemvalue="HTTP Request.test | #1 (1)" />
-        <item itemvalue="Application.WebApplicationServerLauncher" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.RaceConditionDemo" />
+        <item itemvalue="JUnit.ReflectionTest.load" />
+        <item itemvalue="JUnit.ReflectionTest.showClass" />
+        <item itemvalue="JUnit.ReflectionTest" />
+        <item itemvalue="JUnit.ReflectionTest.controllerScan" />
+        <item itemvalue="HTTP Request.test | #1" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
-        <option value="jdk-17.0.9-jbr-17.0.9-4caba194b151-51f1b679" />
         <option value="jdk-21.0.1-temurin-21.0.1-4caba194b151-b7b86d5d" />
       </set>
     </attachedChunks>
@@ -262,14 +231,10 @@
       <workItem from="1707635657052" duration="469000" />
       <workItem from="1707908341260" duration="7770000" />
       <workItem from="1707968764895" duration="407000" />
-      <workItem from="1707969345396" duration="6200000" />
-      <workItem from="1708826339789" duration="835000" />
-      <workItem from="1708948486799" duration="1150000" />
-      <workItem from="1709106468917" duration="597000" />
-      <workItem from="1709120306807" duration="7680000" />
-      <workItem from="1709354528199" duration="6596000" />
-      <workItem from="1709386091398" duration="1708000" />
-      <workItem from="1709461546086" duration="283000" />
+      <workItem from="1707969345396" duration="7313000" />
+      <workItem from="1708041420952" duration="8000" />
+      <workItem from="1709190025752" duration="1764000" />
+      <workItem from="1709788143867" duration="5474000" />
     </task>
     <task id="LOCAL-00001" summary="[패스트캠퍼스] 객체지향 개념 다지기 까지 커밋">
       <option name="closed" value="true" />
@@ -287,63 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707917561691</updated>
     </task>
-    <task id="LOCAL-00003" summary="[패스트캠퍼스] gitignore 수정">
+    <task id="LOCAL-00003" summary="[패스트캠퍼스] 객체지향 개념 다지기 사칙 연산 계산기 커밋">
       <option name="closed" value="true" />
-      <created>1708524364241</created>
+      <created>1707984220453</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1708524364241</updated>
+      <updated>1707984220453</updated>
     </task>
-    <task id="LOCAL-00004" summary="[패스트캠퍼스] 음식점 주문 반영">
-      <option name="closed" value="true" />
-      <created>1709121367602</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1709121367602</updated>
-    </task>
-    <task id="LOCAL-00005" summary="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-1 까지">
-      <option name="closed" value="true" />
-      <created>1709131165067</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1709131165067</updated>
-    </task>
-    <task id="LOCAL-00006" summary="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-3 까지, CGI 프로그램과 서블릿">
-      <option name="closed" value="true" />
-      <created>1709383373617</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1709383373617</updated>
-    </task>
-    <task id="LOCAL-00007" summary="[패스트캠퍼스] 웹 애플리케이션의 이해까지">
-      <option name="closed" value="true" />
-      <created>1709387160606</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1709387160606</updated>
-    </task>
-    <task id="LOCAL-00008" summary="[패스트캠퍼스] JDBC 강의 수강">
-      <option name="closed" value="true" />
-      <created>1709461565833</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1709461565833</updated>
-    </task>
-    <task id="LOCAL-00009" summary="[패스트캠퍼스] JDBC 강의 수강">
-      <option name="closed" value="true" />
-      <created>1709461726601</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1709461726601</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,14 +279,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[패스트캠퍼스] 객체지향 개념 다지기 까지 커밋" />
-    <MESSAGE value=".gitignore" />
-    <MESSAGE value="[패스트캠퍼스] gitignore 수정" />
-    <MESSAGE value="[패스트캠퍼스] 음식점 주문 반영" />
-    <MESSAGE value="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-1 까지" />
-    <MESSAGE value="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-3 까지, CGI 프로그램과 서블릿" />
-    <MESSAGE value="[패스트캠퍼스] 웹 애플리케이션의 이해까지" />
-    <MESSAGE value="[패스트캠퍼스] JDBC 강의 수강" />
-    <option name="LAST_COMMIT_MESSAGE" value="[패스트캠퍼스] JDBC 강의 수강" />
+    <MESSAGE value="[패스트캠퍼스] 객체지향 개념 다지기 사칙 연산 계산기 커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="[패스트캠퍼스] 객체지향 개념 다지기 사칙 연산 계산기 커밋" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

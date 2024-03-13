@@ -9,17 +9,13 @@ build/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
-/.idea
 *.iws
 *.iml
 *.ipr
-*.xml
-*.class
-/.gradle
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-Uncommit
+
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -31,6 +27,7 @@ Uncommit
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/

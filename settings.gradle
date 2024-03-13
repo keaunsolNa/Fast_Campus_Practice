@@ -7,4 +7,5 @@ include 'was-practice'
 include 'servlet'
 include 'jdbc-practice'
 include 'mvc-practice2'
+include 'mvc-practice3'
 

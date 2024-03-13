@@ -4,19 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b357aa1b-22bb-44d9-aa95-cad4c1beb333" name="변경" comment="[패스트캠퍼스] JDBC 강의 수강">
-      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/DispatcherServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/RequestMappingHandlerMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc-practice3/webapps/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b357aa1b-22bb-44d9-aa95-cad4c1beb333" name="변경" comment="[패스트캠퍼스] 프런트 컨트롤러 패턴 실습 수강">
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/AnnotationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/AnnotationHandlerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/AnnotationHandlerMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/HandlerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/HandlerKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/HandlerMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/SimpleControllerHandlerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/annotation/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/annotation/RequestMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/controller/ForwardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/controller/RequestMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/controller/UserCreateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/controller/UserListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/filter/CharacterEncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/view/JspView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/view/JspViewResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/view/ModelAndView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/view/RedirectView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/view/ViewResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/webapps/user/form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-practice3/webapps/user/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc-practice2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-practice2/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/DispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/RequestMappingHandlerMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/RequestMappingHandlerMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-practice3/src/main/java/org/example/mvc/controller/HomeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +293,7 @@
       <workItem from="1710160491506" duration="462000" />
       <workItem from="1710237129905" duration="2431000" />
       <workItem from="1710239693718" duration="607000" />
-      <workItem from="1710294973762" duration="158000" />
+      <workItem from="1710294973762" duration="785000" />
     </task>
     <task id="LOCAL-00001" summary="[패스트캠퍼스] 객체지향 개념 다지기 까지 커밋">
       <option name="closed" value="true" />
@@ -359,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709461911941</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[패스트캠퍼스] 프런트 컨트롤러 패턴 실습 수강">
+      <option name="closed" value="true" />
+      <created>1710295153939</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710295153939</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +409,8 @@
     <MESSAGE value="[패스트캠퍼스] 계산기 웹 프로그램 구현하기 Part-3 까지, CGI 프로그램과 서블릿" />
     <MESSAGE value="[패스트캠퍼스] 웹 애플리케이션의 이해까지" />
     <MESSAGE value="[패스트캠퍼스] JDBC 강의 수강" />
-    <option name="LAST_COMMIT_MESSAGE" value="[패스트캠퍼스] JDBC 강의 수강" />
+    <MESSAGE value="[패스트캠퍼스] 프런트 컨트롤러 패턴 실습 수강" />
+    <option name="LAST_COMMIT_MESSAGE" value="[패스트캠퍼스] 프런트 컨트롤러 패턴 실습 수강" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
